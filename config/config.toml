@@ -1,0 +1,6 @@
+[General]
+  DefaultTraffic = 100
+  NetworkCardName = "eth0"
+  StartTraffic = 0
+  ExpireTime = "2024-05-12 13:50:52.4085838 +0800 CST"
+  ClashPath = "./clash_config.yml"
