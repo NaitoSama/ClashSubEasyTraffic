@@ -26,10 +26,12 @@ type config struct {
 
 type general struct {
 	DefaultTraffic  float64
+	Offset          float64
 	NetworkCardName string
 	//StartTime       string
 	StartTraffic uint64
 	ExpireTime   string
 	//Location        string
-	ClashPath string
+	ClashPath    string
+	ResetMonthly bool
 }

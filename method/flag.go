@@ -25,4 +25,5 @@ func Flags() {
 			log.Log.Fatalln(err)
 		}
 	}
+	go ResetMonthly()
 }
