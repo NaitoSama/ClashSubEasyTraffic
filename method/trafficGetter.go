@@ -89,7 +89,8 @@ func ResetMonthly() {
 			if err != nil {
 				log.Log.Fatalln(err.Error())
 			}
-			config.Config.General.ExpireTime = time.Now().AddDate(0, 1, 0).String()
+			config.Config.General.ExpireTime = now.AddDate(0, 1, 0).String()
+			expireTime = now.AddDate(0, 1, 0)
 			err = RewriteConfigFile()
 			if err != nil {
 				log.Log.Fatalln(err.Error())
